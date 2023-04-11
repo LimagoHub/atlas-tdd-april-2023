@@ -12,10 +12,10 @@ set(PROJ_CONFIG $<CONFIG>)
 
 add_executable(
 	StapelProjekt 
-	source/main.cpp  
-)
+	source/main.cpp
+		source/collections/Stapel.cpp source/collections/Stapel.h source/collections/StapelException.h)
 
-
+enable_testing()
 # Add tests
 add_subdirectory(tests)
 
