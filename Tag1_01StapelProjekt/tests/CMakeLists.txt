@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.12)
 
 
-
+enable_testing()
 
 
 # Add dependencies
@@ -15,7 +15,8 @@ set_target_properties(gmock_main gtest_main PROPERTIES EXCLUDE_FROM_ALL 1 EXCLUD
 
 set(SOURCE
 	main.cpp
-		SimpleTest.cpp)
+		../source/collections/stapel.cpp
+		SimpleTest.cpp collections/StapelTest.cpp collections/StapelTest.h)
 
 
 
@@ -42,4 +43,4 @@ set_target_properties(StapelProjektTest
 	RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIG>"
 )
 
-enable_testing()
+
