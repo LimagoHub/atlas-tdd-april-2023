@@ -26,6 +26,18 @@ TEST_F(StapelTest, is_empty__not_empty_stack__returnsFalse) {
     // Assertion
     EXPECT_FALSE(result);
 }
+
+TEST_F(StapelTest, is_empty__empty_again_stack__returnsTrue) {
+    // Arrange
+
+    object_under_test.push(1);
+    object_under_test.pop();
+    // Action
+    bool result = object_under_test.is_empty();
+
+    // Assertion
+    EXPECT_TRUE(result);
+}
 TEST_F(StapelTest, push__fill_up_limit__no_exception_is_thrown) {
     fill_up_to_limit();
 }

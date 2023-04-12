@@ -5,10 +5,11 @@
 #pragma once
 
 #include "StapelException.h"
+#include <vector>
 class Stapel {
 
-    int data[10];
-    int index;
+    std::vector<int> data;
+
 
 public:
     Stapel();
