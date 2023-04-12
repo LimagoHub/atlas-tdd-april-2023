@@ -7,6 +7,8 @@
 #include "gmock-global/gock-global.h"
 
 MOCK_GLOBAL_FUNC2(mult,double(double, double));
+
+
 using namespace testing;
 class globaltest : public Test{
 

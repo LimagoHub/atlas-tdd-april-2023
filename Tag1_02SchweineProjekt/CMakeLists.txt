@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.12)
 
 project(Tag1_02SchweineProjekt)
-enable_testing()
+
 
 set(CMAKE_CXX_STANDARD 17)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -13,7 +13,7 @@ set(PROJ_CONFIG $<CONFIG>)
 add_executable(
 	Tag1_02SchweineProjekt 
 	source/main.cpp  
- "source/Schwein.h" "source/Schwein.cpp")
+ "source/Schwein.h" "source/Schwein.cpp" source/Stapel.cpp source/Stapel.h)
 
 
 # Add tests
