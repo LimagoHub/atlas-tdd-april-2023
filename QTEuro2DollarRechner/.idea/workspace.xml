@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Euro2Dollar" targetName="gtest" />
+      <config projectName="Euro2Dollar" targetName="gtest_main" />
+      <config projectName="Euro2Dollar" targetName="Euro2DollarTest" />
+      <config projectName="Euro2Dollar" targetName="gmock" />
+      <config projectName="Euro2Dollar" targetName="gtest_autogen" />
+      <config projectName="Euro2Dollar" targetName="Euro2Dollar" />
+      <config projectName="Euro2Dollar" targetName="gmock_autogen" />
+      <config projectName="Euro2Dollar" targetName="gtest_main_autogen" />
+      <config projectName="Euro2Dollar" targetName="Euro2DollarTest_autogen" />
+      <config projectName="Euro2Dollar" targetName="gmock_main_autogen" />
+      <config projectName="Euro2Dollar" targetName="gmock_main" />
+      <config projectName="Euro2Dollar" targetName="Euro2Dollar_autogen" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-MinGW" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="Uebung">
+      <change afterPath="$PROJECT_DIR$/../LoggerProjekt/Appender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerProjekt/ConsolenAppender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerProjekt/Logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/source/services/BlacklistService.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/source/services/UUIDGenerator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/tests/MockBlacklistService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonenServiceProjekt/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonenServiceProjekt/source/persistence/person.h" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/source/persistence/person.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonenServiceProjekt/source/services/person_service_impl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/source/services/person_service_impl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonenServiceProjekt/source/services/personen_service_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/source/services/personen_service_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonenServiceProjekt/tests/personen_service_impl_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/tests/personen_service_impl_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonenServiceProjekt/tests/personen_service_impl_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonenServiceProjekt/tests/personen_service_impl_test.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29vxa28HkOJc5OUyxwjJAMuPs8q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/FakeDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__not_covertable_value_in_Eurofield__rechnen_disabled">
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__NAN_in_Eurofield__errormessage_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__NAN_in_Eurofield__errormessage_in_dollar_field" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__exception_in_underlying_service__errormessage_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__exception_in_underlying_service__errormessage_in_dollar_field" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__valid_euro_value__eurovalue_passed_service" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__valid_euro_value__eurovalue_passed_service" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__valid_euro_value__result_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__valid_euro_value__result_in_dollar_field" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="euro_to_dollar_presenter_impl_test.update_rechnen_action_state__not_covertable_value_in_Eurofield__rechnen_disabled" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="update_rechnen_action_state__not_covertable_value_in_Eurofield__rechnen_disabled" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Euro2Dollar" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2Dollar" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2Dollar">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Euro2DollarTest" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Euro2Dollar" />
+      <item itemvalue="CMake Application.Euro2DollarTest" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__not_covertable_value_in_Eurofield__rechnen_disabled" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__NAN_in_Eurofield__errormessage_in_dollar_field" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__exception_in_underlying_service__errormessage_in_dollar_field" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__valid_euro_value__eurovalue_passed_service" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__valid_euro_value__result_in_dollar_field" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__not_covertable_value_in_Eurofield__rechnen_disabled" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__valid_euro_value__result_in_dollar_field" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__valid_euro_value__eurovalue_passed_service" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__exception_in_underlying_service__errormessage_in_dollar_field" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__NAN_in_Eurofield__errormessage_in_dollar_field" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="" />
+      <created>1654007422250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654007422250</updated>
+      <workItem from="1654007424352" duration="3641000" />
+      <workItem from="1654018257241" duration="2081000" />
+      <workItem from="1654066429662" duration="1596000" />
+      <workItem from="1654085635647" duration="1589000" />
+      <workItem from="1654242338747" duration="1667000" />
+      <workItem from="1665125847832" duration="2455000" />
+      <workItem from="1666159641277" duration="3087000" />
+      <workItem from="1666171269277" duration="8556000" />
+      <workItem from="1669811823820" duration="8547000" />
+      <workItem from="1670748161553" duration="184000" />
+      <workItem from="1670748356943" duration="72000" />
+      <workItem from="1681367465454" duration="33000" />
+      <workItem from="1681367887029" duration="574000" />
+      <workItem from="1681369329289" duration="22000" />
+    </task>
+    <task id="LOCAL-00001" summary="Letzter Stand">
+      <created>1654017415364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017415364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Letzter Stand">
+      <created>1654017444562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017444562</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Letzter Stand (Bugfixed)">
+      <created>1654017560821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017560821</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Uebung">
+      <created>1666172261689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666172261689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Letzter Stand" />
+    <MESSAGE value="Letzter Stand (Bugfixed)" />
+    <MESSAGE value="Uebung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung" />
+  </component>
+</project>
