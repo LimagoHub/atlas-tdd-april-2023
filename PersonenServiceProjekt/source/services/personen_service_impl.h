@@ -7,13 +7,12 @@
 #include "../persistence/personen_repository.h"
 
 #include "personen_service_exception.h"
-#include "BlacklistService.h"
 
 
 class personen_service_impl  {
 
 public:
-    personen_service_impl(personen_repository &repo, BlacklistService &blacklistService);
+    personen_service_impl(personen_repository &repo);
 
     /*
 	*	Vorname < 2 -> PSE
@@ -28,7 +27,7 @@ public:
 	*/
     void speichern(person person_);
 
-    void speichern(std::string vorname, std::string nachname);
+
 
 
 private:
@@ -36,15 +35,6 @@ private:
 
     personen_repository &repo;
 
-    BlacklistService &blacklistService;
-
-    void speichernImpl(const person &person_) const;
-
-    void check_person(const person &person_) const;
-
-    void validate(const person &person_) const;
-
-    void business_check(const person &person_) const;
 };
 
 

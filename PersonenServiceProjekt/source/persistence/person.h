@@ -15,9 +15,6 @@ class person {
     std::string nachname;
 
 public:
-    person():person("Max","Mustermann") {
-
-    }
     person(const std::string &vorname, const std::string &nachname) : vorname(vorname), nachname(nachname) {}
 
     const std::string &getId() const {
