@@ -32,15 +32,15 @@
 			null
 		],
 		[
-			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/euro_to_dollar_calculator_impl_test.h",
+			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/presenter/euro_to_dollar_presenter_impl_test.h",
 			"MU",
-			"EWIEGA46WW/moc_euro_to_dollar_calculator_impl_test.cpp",
+			"NDMPZJZBF5/moc_euro_to_dollar_presenter_impl_test.cpp",
 			null
 		],
 		[
-			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/euro_to_dollar_presenter_impl_test.h",
+			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/services/euro_to_dollar_impl_test.h",
 			"MU",
-			"EWIEGA46WW/moc_euro_to_dollar_presenter_impl_test.cpp",
+			"3BYFHCGL5U/moc_euro_to_dollar_impl_test.cpp",
 			null
 		]
 	],
@@ -95,17 +95,17 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/euro_to_dollar_calculator_impl_test.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/euro_to_dollar_presenter_impl_test.cpp",
-			"MU",
-			null
-		],
-		[
 			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/presenter/euro_to_dollar_presenter_impl_test.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/JoachimWagner/git/Atlas/atlas-tdd-april-2023/QTEuro2DollarRechner/tests/services/euro_to_dollar_impl_test.cpp",
 			"MU",
 			null
 		]

@@ -1,16 +1,16 @@
 //
-// Created by JoachimWagner on 31.05.2022.
+// Created by JoachimWagner on 13.04.2023.
 //
 
 #pragma once
-
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "../presenter/euro_to_dollar_presenter_impl.h"
+#include "../../presenter/euro_to_dollar_presenter_impl.h"
 #include "Mockeuro_to_dollar_calculator.h"
 #include "Mockeuro_to_dollar_view.h"
 using namespace testing;
-class euro_to_dollar_presenter_impl_test : public testing::Test{
+
+class euro_to_dollar_presenter_impl_test :public Test{
 
 protected:
     Mockeuro_to_dollar_calculator  euro_to_dollar_calculatorMock;
@@ -19,7 +19,3 @@ protected:
 
     void SetUp() override;
 };
-
-
-
-

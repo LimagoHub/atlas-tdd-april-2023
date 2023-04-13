@@ -1,4 +1,7 @@
 #pragma once
+#include <string>
+#include <sstream>
+#include <iomanip>
 #include <stdexcept>
 #include "euro_to_dollar_presenter.h"
 #include "../view/euro_to_dollar_view.h"
@@ -44,14 +47,26 @@ public:
 	void rechnen() const override
 	{
         try {
-            const auto euro = std::stod(view_->get_euro());
-            std::string result = std::to_string(model_->convert(euro));
-            view_->set_dollar(result);
-        } catch (const std::invalid_argument & ex) {
+            std::string euroValueAsString = view_->get_euro();
+            size_t endpos;
+            double euro = std::stod(euroValueAsString, &endpos);
+            if(euroValueAsString.length() != endpos) {
+                view_->set_dollar("Keine Zahl");
+                return;
+            }
+            double dollar = model_->convert(euro);
+            std::stringstream ss;
+
+            ss << std::fixed;
+            ss.precision(2);
+            ss << dollar;
+            view_->set_dollar(ss.str());
+        } catch (const std::invalid_argument ex) {
             view_->set_dollar("Keine Zahl");
         } catch (...) {
-            view_->set_dollar("Server nicht erreichbar");
+            view_->set_dollar("Ein Fehler ist aufgetreten");
         }
+
 	}
 
 	void beenden() const override
@@ -62,9 +77,15 @@ public:
 	void update_rechnen_action_state() const override
 	{
         try {
-            std::stod(view_->get_euro());
+            std::string euroValueAsString = view_->get_euro();
+            size_t endpos;
+            std::stod(euroValueAsString, &endpos);
+            if(euroValueAsString.length() != endpos) {
+                view_->set_rechnen_enabled(false);
+                return;
+            }
             view_->set_rechnen_enabled(true);
-        } catch (const std::invalid_argument & ex) {
+        } catch (const std::invalid_argument ex) {
             view_->set_rechnen_enabled(false);
         }
 
